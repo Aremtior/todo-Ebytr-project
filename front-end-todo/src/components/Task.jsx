@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import BtnRemoveTask from './BtnRemoveTask';
 import CheckTask from './CheckTask';
 
 const Container = styled.div(
@@ -30,6 +31,7 @@ const Task = ({ task }) => {
   return (
     <Container done={task.done}>
       <CheckTask task={task} />
+      <BtnRemoveTask id={task._id} />
     </Container>
   );
 };
