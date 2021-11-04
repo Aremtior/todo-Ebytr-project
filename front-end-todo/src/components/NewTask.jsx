@@ -41,7 +41,7 @@ const NewTask = () => {
     });
     setNewTask('');
   };
-  console.log(newTask);
+  
   return (
     <Container>
       <input
