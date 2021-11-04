@@ -9,7 +9,8 @@ Deve ser possível:
 - [x] Excluir uma tarefa
 - [ ] Editar uma tarefa
 - [x] Gravar em um banco de dados a tarefa
-- [ ] Ordenar as tarefas por texto ou data de criação, em ordem crescente ou descrescente
+- [ ] Ordenar as tarefas em ordem alfabética ou data de criação ou por status, em ordem crescente ou descrescente
+- [ ] A tarefa deve possuir um status editável: pendente, em andamento ou pronto
 
 ## Como instalar/usar o código fonte do projeto:
 1. Faça um clone do repositório para um diretório de sua preferência em seu computador local
