@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Container = styled.div`
   display: flex;
@@ -21,7 +21,7 @@ const CheckTask = ({ task }) => {
   return (
     <Container>
       <input
-        type='checkbox'
+        type="checkbox"
         id={task._id}
         checked={task.done}
         onChange={(e) => updateTaskList(e.target.checked)}
